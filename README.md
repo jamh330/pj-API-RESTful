@@ -37,7 +37,7 @@ Antes de ejecutar este proyecto localmente, asegúrate de tener instalado lo sig
 
 4. Inicia el servidor:
 
-`npm start`
+`node app.js`
 
 
 La API RESTful ahora debería estar ejecutándose en [http://localhost:3000](http://localhost:3000).
