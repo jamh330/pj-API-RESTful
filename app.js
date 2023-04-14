@@ -23,13 +23,14 @@ mongoose.connect(uri, options)
   .catch((error) => console.log('Error en la conexión a la base de datos:', error));
 
 // Importa tus rutas aquí, por ejemplo:
-//me da error de modulo no encontrado
 const usersRouter = require('./routes/users.js');
-app.use('/', usersRouter);
+const defaultRouter = require('./routes/default.js');
+app.use('/users', usersRouter);
+app.use('/', defaultRouter);
 
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Servidor corriendo en el puerto ${PORT}`);
 });
 

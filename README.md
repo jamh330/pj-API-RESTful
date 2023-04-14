@@ -46,11 +46,12 @@ La API RESTful ahora debería estar ejecutándose en [http://localhost:3000](htt
 
 Este proyecto incluye las siguientes rutas y recursos:
 
-- Crear un usuario: POST `/`
-- Obtener todos los usuarios: GET `/`
-- Obtener un usuario por ID: GET `/:id`
-- Actualizar un usuario por ID: PUT `/:id`
-- Eliminar un usuario por ID: DELETE `/:id`
+- Ruta Default: GET `/`
+- Crear un usuario: POST `/users`
+- Obtener todos los usuarios: GET `/users`
+- Obtener un usuario por ID: GET `/users/:id`
+- Actualizar un usuario por ID: PUT `/users/:id`
+- Eliminar un usuario por ID: DELETE `/users/:id`
 
 Para obtener más información sobre cómo utilizar estas rutas y recursos, consulta el código fuente en la carpeta `routes`.
 
