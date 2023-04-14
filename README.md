@@ -27,7 +27,7 @@ Antes de ejecutar este proyecto localmente, asegúrate de tener instalado lo sig
 
 2. Navega hasta la carpeta del proyecto:
 
-`cd restful-api`
+`cd pj-API-RESTful`
 
 
 3. Instala las dependencias:
