@@ -22,22 +22,22 @@ Antes de ejecutar este proyecto localmente, asegúrate de tener instalado lo sig
 
 1. Clona este repositorio:
 
-git clone https://github.com/tu-usuario/restful-api.git
+`git clone https://github.com/jamh330/pj-API-RESTful`
 
 
 2. Navega hasta la carpeta del proyecto:
 
-cd restful-api
+`cd restful-api`
 
 
 3. Instala las dependencias:
 
-npm install
+`npm install`
 
 
 4. Inicia el servidor:
 
-npm start
+`npm start`
 
 
 La API RESTful ahora debería estar ejecutándose en [http://localhost:3000](http://localhost:3000).
